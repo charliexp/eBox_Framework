@@ -6,6 +6,7 @@ stm32f0 系列todo_list
 	// 1 不能同时使用O3 & Otime优化，会出错。如果同时选择O3,OTime,Ospace优化则可以
 	// 2 O3 or OTime选择一个优化项，可以正常运行
 4	ebox_mem.c/h 使用stdFun路径下文件，移除util目录下文件
+5	使用stdFun路径下的ebox_mem.h文件后 ebox_exti出错，暂时从ebox.h中注释掉
 
 疑问？
 1	math_misc.c 为空，是否有存在必要
