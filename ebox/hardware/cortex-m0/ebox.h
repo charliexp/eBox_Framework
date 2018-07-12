@@ -26,7 +26,7 @@
 #include "ebox_uart.h"
 #include "ebox_analog.h"
 #include "ebox_tim.h"
-#include "ebox_exti.h"
+//#include "ebox_exti.h"
 #include "ebox_spi.h"
 #include "ebox_i2c.h"
 #include "ebox_wdg.h"

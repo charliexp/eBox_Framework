@@ -1,0 +1,12 @@
+stm32f0 系列todo_list
+2018.07.12
+1	eboxFun目录对应ebox\core\stdFun文件夹和f1保持一致，包含了所有的标准功能函数
+2	在ebox\hardware\cortex-m0目录下增加middle目录，用来匹配F1系列架构
+3	单独配置ebox_mem.c优化配置
+	// 1 不能同时使用O3 & Otime优化，会出错。如果同时选择O3,OTime,Ospace优化则可以
+	// 2 O3 or OTime选择一个优化项，可以正常运行
+4	ebox_mem.c/h 使用stdFun路径下文件，移除util目录下文件
+
+疑问？
+1	math_misc.c 为空，是否有存在必要
+2	

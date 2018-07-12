@@ -24,15 +24,18 @@ void setup()
 	ebox_init();
 	LED.mode(OUTPUT_PP_PU);
 	usart.begin(115200);
+	usart.printf("test");
 }
 
 int main(void)
 {
+		float a;
     setup();
     while(1)
     {
+			usart.printf("sssssssssssdddddddddddddddddddddddddddddddddddddddddddddddddddddssssssssssss %.2f \r\n",ebox_mem_usage());
 			LED.toggle();
-			delay_ms(1000);
+			delay_ms(9000);
 		}
 }
 

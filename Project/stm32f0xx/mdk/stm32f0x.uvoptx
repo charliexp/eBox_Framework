@@ -1216,7 +1216,7 @@
   </Group>
 
   <Group>
-    <GroupName>ebox</GroupName>
+    <GroupName>eboxFun</GroupName>
     <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
@@ -1224,96 +1224,96 @@
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>78</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_analog.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_analog.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\big_little.c</PathWithFileName>
+      <FilenameWithoutPath>big_little.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>79</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_exti.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_exti.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\crc.c</PathWithFileName>
+      <FilenameWithoutPath>crc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>80</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_gpio.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_gpio.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\ebox_mem.c</PathWithFileName>
+      <FilenameWithoutPath>ebox_mem.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>81</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_i2c.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_i2c.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\ebox_printf.c</PathWithFileName>
+      <FilenameWithoutPath>ebox_printf.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>82</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_iflash.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_iflash.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\fifo.c</PathWithFileName>
+      <FilenameWithoutPath>fifo.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>83</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_rtc.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_rtc.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\itoa.c</PathWithFileName>
+      <FilenameWithoutPath>itoa.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>84</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_spi.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_spi.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\math_misc.c</PathWithFileName>
+      <FilenameWithoutPath>math_misc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>85</FileNumber>
-      <FileType>8</FileType>
+      <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_tim.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_tim.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\util.c</PathWithFileName>
+      <FilenameWithoutPath>util.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1324,8 +1324,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_wdg.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_wdg.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\Dstring.cpp</PathWithFileName>
+      <FilenameWithoutPath>Dstring.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -1336,14 +1336,214 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\core\ebox_core.cpp</PathWithFileName>
-      <FilenameWithoutPath>ebox_core.cpp</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\list.cpp</PathWithFileName>
+      <FilenameWithoutPath>list.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>5</GroupNumber>
       <FileNumber>88</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\new.cpp</PathWithFileName>
+      <FilenameWithoutPath>new.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>89</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\print.cpp</PathWithFileName>
+      <FilenameWithoutPath>print.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>90</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\random.cpp</PathWithFileName>
+      <FilenameWithoutPath>random.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>91</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\ringbuf.cpp</PathWithFileName>
+      <FilenameWithoutPath>ringbuf.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>92</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\sort.cpp</PathWithFileName>
+      <FilenameWithoutPath>sort.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>93</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\core\stdFun\WString.cpp</PathWithFileName>
+      <FilenameWithoutPath>WString.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+  </Group>
+
+  <Group>
+    <GroupName>ebox</GroupName>
+    <tvExp>1</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>94</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_analog.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_analog.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>95</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_exti.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_exti.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>96</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_gpio.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_gpio.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>97</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_i2c.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_i2c.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>98</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_iflash.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_iflash.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>99</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_rtc.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_rtc.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>100</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_spi.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_spi.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>101</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_tim.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_tim.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>102</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\Peripherals\ebox_wdg.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_wdg.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>103</FileNumber>
+      <FileType>8</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\core\ebox_core.cpp</PathWithFileName>
+      <FilenameWithoutPath>ebox_core.cpp</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>104</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1354,8 +1554,8 @@
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>5</GroupNumber>
-      <FileNumber>89</FileNumber>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>105</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1366,8 +1566,8 @@
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>5</GroupNumber>
-      <FileNumber>90</FileNumber>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>106</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1378,8 +1578,8 @@
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>5</GroupNumber>
-      <FileNumber>91</FileNumber>
+      <GroupNumber>6</GroupNumber>
+      <FileNumber>107</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1398,8 +1598,8 @@
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
     <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>92</FileNumber>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>108</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1410,8 +1610,8 @@
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>93</FileNumber>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>109</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1422,8 +1622,8 @@
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>94</FileNumber>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>110</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1434,8 +1634,8 @@
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>95</FileNumber>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>111</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1446,8 +1646,8 @@
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>96</FileNumber>
+      <GroupNumber>7</GroupNumber>
+      <FileNumber>112</FileNumber>
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1466,8 +1666,8 @@
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
     <File>
-      <GroupNumber>7</GroupNumber>
-      <FileNumber>97</FileNumber>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>113</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -1478,14 +1678,34 @@
       <bShared>0</bShared>
     </File>
     <File>
-      <GroupNumber>7</GroupNumber>
-      <FileNumber>98</FileNumber>
+      <GroupNumber>8</GroupNumber>
+      <FileNumber>114</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\common\util\ebox_mem.c</PathWithFileName>
       <FilenameWithoutPath>ebox_mem.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+  </Group>
+
+  <Group>
+    <GroupName>note</GroupName>
+    <tvExp>1</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>9</GroupNumber>
+      <FileNumber>115</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\ebox\hardware\cortex-m0\note.txt</PathWithFileName>
+      <FilenameWithoutPath>note.txt</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
