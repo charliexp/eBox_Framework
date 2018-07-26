@@ -1,12 +1,23 @@
 stm32f0 系列todo_list
-2018.07.12
+说明：
 1	eboxFun目录对应ebox\core\stdFun文件夹和f1保持一致，包含了所有的标准功能函数
 2	在ebox\hardware\cortex-m0目录下增加middle目录，用来匹配F1系列架构
-3	单独配置ebox_mem.c优化配置
+
+2018.07.12
+1	单独配置ebox_mem.c优化配置
 	// 1 不能同时使用O3 & Otime优化，会出错。如果同时选择O3,OTime,Ospace优化则可以
 	// 2 O3 or OTime选择一个优化项，可以正常运行
-4	ebox_mem.c/h 使用stdFun路径下文件，移除util目录下文件
-5	使用stdFun路径下的ebox_mem.h文件后 ebox_exti出错，暂时从ebox.h中注释掉
+2	ebox_mem.c/h 使用stdFun路径下文件，移除util目录下文件
+3	使用stdFun路径下的ebox_mem.h文件后 ebox_exti出错，暂时从ebox.h中注释掉
+
+2018.07.26
+1	同步master分支
+2	去除ebox_mem.c 单独优化配置
+3	移除util下的ebox_mem文件，是哟你哦个stdFun路径下的同名文件
+4	在ebox.h 文件中增加
+		#define mcuGpio E_GPIO 匹配 GPIO,
+		#define Uart	E_UART 匹配 Uart
+5	gpio_write.cpp 例程通过
 
 疑问？
 1	math_misc.c 为空，是否有存在必要
