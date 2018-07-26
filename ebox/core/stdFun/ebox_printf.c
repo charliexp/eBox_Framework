@@ -5,13 +5,13 @@
 struct ebox_fifo *uart_fifo_ptr;
 void ebox_printf_init(void)
 {
-    uart_fifo_ptr = ebox_fifo_alloc(128);
+    uart_fifo_ptr = ebox_fifo_alloc(256);
 }
 
 void ebox_printf(const char *fmt, ...)
 {
     char *buf;
-    int     size1 = 0;
+    size_t     size1 = 0;
     size_t  size2 = 32;
     va_list va_params;
 
@@ -22,7 +22,7 @@ void ebox_printf(const char *fmt, ...)
         if(buf == NULL)
             return ;
         size1 = vsnprintf(buf, size2,fmt, va_params);
-        if(size1 == -1  || size1 > size2)
+        if(size1 == -1  || size1 >= size2)
         {
             size2+=32;
             size1 = -1;
